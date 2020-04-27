@@ -85,9 +85,9 @@ type ClusterAddonsKnownVersions = func(clusterVersion *version.Version) AddonsVe
 
 var (
 	supportedVersions = KubernetesVersions{
-		"1.18.0": KubernetesVersion{
+		"1.18.1": KubernetesVersion{
 			ComponentHostVersion: ComponentHostVersion{
-				KubeletVersion:          "1.18.0",
+				KubeletVersion:          "1.18.1",
 				ContainerRuntimeVersion: "1.18.0",
 			},
 			ComponentContainerVersion: ComponentContainerVersion{
